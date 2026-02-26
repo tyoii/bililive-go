@@ -21,5 +21,6 @@ import (
 	_ "github.com/bililive-go/bililive-go/src/live/xiaohongshu"
 	_ "github.com/bililive-go/bililive-go/src/live/yizhibo"
 	_ "github.com/bililive-go/bililive-go/src/live/yy"
+	_ "github.com/bililive-go/bililive-go/src/live/youtube"
 	_ "github.com/bililive-go/bililive-go/src/live/zhanqi"
 )
