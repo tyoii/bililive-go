@@ -110,7 +110,7 @@ func (l *Live) GetStreamUrls() ([]*url.URL, error) {
 
 	cmd := exec.CommandContext(ctx, "yt-dlp",
 		"--get-url",
-		"-f", "best",
+		"-f", "best[height<=720]/best",
 		"--no-warnings",
 		"--quiet",
 		videoURL,
